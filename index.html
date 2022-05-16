@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Form</title>
+</head>
+
+<body>
+
+    <div>
+
+        <form action="/action.js">
+            <h2>Sign Up </h2>
+            <Label>
+                <h4>Name*</h4>
+            </Label>
+            <input type="text1" placeholder="First Name">
+            <input type="text2" placeholder="Last Name">
+            <br>
+            <label>
+                <h4>Email Address* </h4>
+            </label>
+            <input type="text3" placeholder="example@gmail.com">
+            <label>
+                <h4>Password*</h4>
+            </label>
+            <input type="password1">
+            <label>
+                <h4>Confirm Password*</h4>
+            </label>
+            <input type="password2">
+            <h4>Date of Birth*</h4>
+            <input type="date"><br>
+            <label for="rb1">
+                <h4>Gender*</h4>
+                <input type="radio" value="Male" name="gender" id="rb1">Male
+            </label>
+            <label for="rb2">
+                <input type="radio" value="Female" name="gender" id="rb2">Female
+            </label>
+            <label for="rb3">
+                <input type="radio" value="other" name="gender" id="rb3">Other
+            </label>
+
+            <label for="L1">
+                <h4>Language Known </h4>
+
+                <input type="checkbox" value="react" name="Language" id="L1">React
+            </label>
+            <label for="L2">
+                <input type="checkbox" value="angular" name="Language" id="L2">Angular
+            </label>
+            <label for="L3">
+                <input type="checkbox" value="vue" name="Language" id="L3">Vue
+            </label><br>
+
+            <h4>Experience Level* </h4>
+
+            <select name="Beginner">
+                <option value="Beginner">Beginner</option>
+                <option value="1 - 2 years">1 - 2 years</option>
+                <option value="2 - 4 years">2 - 4 years</option>
+                <option value="3 - 4 years">3 - 4 years</option>
+
+            </select><br>
+
+            <h4>Tell us something about you*</h4>
+            <textarea name="information" id="a1" cols="30" rows="5"></textarea>
+            <br>
+            <input type="checkbox"> I accept the <a href="" >T&C</a> <br>
+            <br>
+            <input type="submit" value="Submit">
+
+
+        </form>
+    </div>
+</body>
+
+</html>
